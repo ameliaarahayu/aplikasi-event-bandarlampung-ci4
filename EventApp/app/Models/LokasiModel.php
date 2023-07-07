@@ -12,7 +12,7 @@ class LokasiModel extends Model
     protected $allowedFields     = ['nama_loc'];
 
     
-    public function getAllDataLokasi()
+    public function getAllData()
     {
       return $this->findAll(); 
      }

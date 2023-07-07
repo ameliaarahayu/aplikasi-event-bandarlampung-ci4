@@ -28,6 +28,7 @@
                     <td><?= $i++; ?></td>
                     <td><?= $lokasi['nama_loc']?></td>
                     <td>
+                    <a href="/detail/" class="btn btn-primary">Detail</a>
                     <a href="/event/update/" class="btn btn-success">Update</a>
                     <a class="btn btn-danger" onclick="return confirmDelete()">Delete</a>
                     </td>

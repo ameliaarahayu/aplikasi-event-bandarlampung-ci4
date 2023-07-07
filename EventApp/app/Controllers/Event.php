@@ -4,21 +4,20 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-//step 1
 use App\Models\KategoriModel;
-use App\Models\EventModel; //add2
+use App\Models\EventModel;
+use App\Models\LokasiModel;
 
 class Event extends BaseController
 {
-    //step 2
     protected $event;                                                                                        
-    //step 3 fungsi constract
     protected $kategori;
+    protected $lokasi;
     public function __construct()
     {
-        //step 4
         $this->event = new EventModel();
-        $this->kategori = new KategoriModel(); //add2
+        $this->kategori = new KategoriModel();
+        $this->lokasi = new LokasiModel();
     }
 
     public function index()
@@ -47,7 +46,7 @@ class Event extends BaseController
 
     public function add()
     {
-        $data['kategori'] = $this->kategori->getAllData(); //2
+        $data['kategori'] = $this->kategori->getAllData();
         $data['errors'] = session('errors');
         return view("event/add", $data);
     }
@@ -113,13 +112,13 @@ class Event extends BaseController
             'cover' => $imageName,
         ];
         $this->event->save($data);
-        session()->setFlashdata('success', 'Data berhasil disimpan.'); // tambahkan ini
+        session()->setFlashdata('success', 'Data berhasil disimpan.'); 
         return redirect()->to('/event');
     }
  
     public function addcatg()
     {
-        $data['kategori'] = $this->kategori->getAllData(); //2
+        $data['kategori'] = $this->kategori->getAllData();
         $data['errors'] = session('errors');
         return view("kategori/addcatg", $data);
     }
@@ -145,7 +144,7 @@ class Event extends BaseController
  
         ];
         $this->kategori->save($data);
-        session()->setFlashdata('success', 'Data berhasil disimpan.'); // tambahkan ini
+        session()->setFlashdata('success', 'Data berhasil disimpan.');
         return redirect()->to('/kategori');
     }
  

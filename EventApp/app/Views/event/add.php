@@ -65,8 +65,13 @@
             </div>
             <div class="col-md-6">
                 <label for="lokasi" class="form-label">Lokasi</label>
-                <input type="text" class="form-control <?= isset($errors['lokasi']) ? 
-                'is-invalid ' : ''; ?>" id="lokasi" name="lokasi" value=" <?= old('lokasi'); ?>">
+                <select name="id_loc" id-catg="lokasi" class="form-control<?= isset($errors['id_loc']) ? 
+                'is-invalid ' : ''; ?>" name="id_loc" value="<?= old('id_loc'); ?>">
+                    <option value="">PILIH...</option>
+                    <?php foreach ($lokasi as $g) : ?>
+                        <option value="<?=$g['id_loc']?>"><?= $g["nama_loc"]?></option>
+                    <?php endforeach; ?>
+                </select>
                 <?php if (isset($errors['lokasi'])) : ?>
                                 <div class=" invalid-feedback">
                                     <?= $errors['lokasi'] ?>

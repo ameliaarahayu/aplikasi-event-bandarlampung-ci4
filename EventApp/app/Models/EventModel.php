@@ -9,7 +9,7 @@ class EventModel extends Model
     protected $table             ='event';
     protected $primaryKey        ='id_event';
     protected $useAutoIncrement  = true;
-    protected $allowedFields       = ['nama_event', 'cover', 'id_loc', 'tgl_event', 'price', 'id_catg'];
+    protected $allowedFields     = ['nama_event', 'cover', 'id_loc', 'tgl_event', 'price', 'id_catg'];
 
     public function getAllDataJoin(){
         $query = $this->db->table("event")

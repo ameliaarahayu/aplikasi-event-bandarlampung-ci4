@@ -7,12 +7,9 @@ use App\Models\KategoriModel;
 
 class Kategori extends BaseController
 {
-   //step 2
    protected $kategori;                                                                                        
-   //step 3 fungsi constract
    public function __construct()
    {
-       //step 4
        $this->kategori = new KategoriModel();
    }
    public function all()

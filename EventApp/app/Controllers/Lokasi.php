@@ -7,12 +7,9 @@ use App\Models\LokasiModel;
 
 class Lokasi extends BaseController
 {
-   //step 2
    protected $lokasi;                                                                                        
-   //step 3 fungsi constract
    public function __construct()
    {
-       //step 4
        $this->lokasi = new LokasiModel();
    }
    public function all()
