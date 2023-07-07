@@ -1,0 +1,476 @@
+ERROR - 2023-07-06 01:45:18 --> mysqli_sql_exception: Table 'db_event.film' doesn't exist in D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `event`....', 0)
+#1 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event`....')
+#2 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event`....')
+#3 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event`....', Array, false)
+#4 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\app\Models\EventModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\app\Controllers\Event.php(32): App\Models\EventModel->getAllDataJoin()
+#6 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\CodeIgniter.php(934): App\Controllers\Event->all()
+#7 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#8 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplik...')
+#11 {main}
+CRITICAL - 2023-07-06 01:45:18 --> Table 'db_event.film' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `film`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `film`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `film`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `film`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`', [], false)
+ 5 APPPATH\Models\EventModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Event.php(32): App\Models\EventModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+ERROR - 2023-07-06 01:46:17 --> mysqli_sql_exception: Unknown column 'kategori.nama_kategori' in 'field list' in D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `event`....', 0)
+#1 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event`....')
+#2 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event`....')
+#3 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event`....', Array, false)
+#4 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\app\Models\EventModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\app\Controllers\Event.php(32): App\Models\EventModel->getAllDataJoin()
+#6 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\CodeIgniter.php(934): App\Controllers\Event->all()
+#7 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#8 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\system\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplik...')
+#11 {main}
+CRITICAL - 2023-07-06 01:46:17 --> Unknown column 'kategori.nama_kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `event`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `event`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `event`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event`.*, `kategori`.`nama_kategori`
+FROM `event`
+JOIN `kategori` ON `kategori`.`id_catg` = `event`.`id_catg`', [], false)
+ 5 APPPATH\Models\EventModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Event.php(32): App\Models\EventModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 01:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 01:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:47:28 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 01:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 01:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:51:54 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 01:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 01:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:58:01 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 01:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 01:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:02:07 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 02:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:13:58 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 02:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:14:36 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 02:15:56 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 02:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:16:16 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 02:17:18 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 02:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:17:22 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 02:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:17:38 --> Call to undefined method App\Models\EventModel::getEvent
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Event.php(26): CodeIgniter\Model->__call('getEvent', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 02:18:38 --> Too few arguments to function App\Models\EventModel::getEvent(), 0 passed in D:\GitHub\aplikasi-pemesanan-tiket-event-ci4\EventApp\app\Controllers\Event.php on line 26 and exactly 1 expected
+in APPPATH\Models\EventModel.php on line 21.
+ 1 APPPATH\Controllers\Event.php(26): App\Models\EventModel->getEvent()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 02:19:15 --> Call to undefined function encryptUrl()
+in APPPATH\Views\event\index.php on line 42.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/index', [], true)
+ 4 APPPATH\Controllers\Event.php(27): view('event/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 02:19:51 --> Call to undefined function encryptUrl()
+in APPPATH\Views\event\index.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/index', [], true)
+ 4 APPPATH\Controllers\Event.php(27): view('event/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 02:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:32:04 --> Undefined variable $g
+in APPPATH\Views\event\add.php on line 47.
+ 1 APPPATH\Views\event\add.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $g', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\add.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/add', [], true)
+ 5 APPPATH\Controllers\Event.php(46): view('event/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 03:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:50:49 --> Undefined array key "id_cagt"
+in APPPATH\Views\event\add.php on line 52.
+ 1 APPPATH\Views\event\add.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cagt"', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\add.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/add', [], true)
+ 5 APPPATH\Controllers\Event.php(46): view('event/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 03:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:53:19 --> Allowed fields must be specified for model: "App\Models\EventModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\EventModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Event.php(109): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:05:10 --> Undefined variable $kategori
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:06:42 --> Undefined variable $kategori
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:06:58 --> Undefined variable $kategori
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:07:00 --> Undefined variable $kategori
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:07:00 --> Undefined variable $kategori
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:07:24 --> Undefined variable $kategoris
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoris', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:09:10 --> Undefined variable $kategoris
+in APPPATH\Views\event\kategori.php on line 16.
+ 1 APPPATH\Views\event\kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoris', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Views\\event\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/kategori', [], true)
+ 5 APPPATH\Controllers\Event.php(39): view('event/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 04:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:16:16 --> Undefined property: App\Controllers\Kategori::$kategori
+in APPPATH\Controllers\Kategori.php on line 16.
+ 1 APPPATH\Controllers\Kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Kategori::$kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Controllers\\Kategori.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:19:35 --> Undefined property: App\Controllers\Kategori::$kategori
+in APPPATH\Controllers\Kategori.php on line 16.
+ 1 APPPATH\Controllers\Kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Kategori::$kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Controllers\\Kategori.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 04:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:20:28 --> Undefined property: App\Controllers\Kategori::$kategori
+in APPPATH\Controllers\Kategori.php on line 16.
+ 1 APPPATH\Controllers\Kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Kategori::$kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Controllers\\Kategori.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-06 04:20:42 --> Undefined property: App\Controllers\Kategori::$Kategori
+in APPPATH\Controllers\Kategori.php on line 16.
+ 1 APPPATH\Controllers\Kategori.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Kategori::$Kategori', 'D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\app\\Controllers\\Kategori.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-pemesanan-tiket-event-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-06 04:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
