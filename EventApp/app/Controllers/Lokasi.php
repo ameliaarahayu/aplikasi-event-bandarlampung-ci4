@@ -30,7 +30,7 @@ class Lokasi extends BaseController
 
     public function destroy($id_loc)
     {
-        $this->lokasi->find($id_loc)->delete();
+        $this->lokasi->delete($id_loc);
         session()->setFlashdata('success', 'Data berhasil dihapus.');
         return redirect()->to('/lokasi');
     }
@@ -89,4 +89,41 @@ class Lokasi extends BaseController
             return redirect()->to('/lokasi');
         }
     }
+    public function tambah()
+    {
+        $validation = $this->validate([
+            'nama_loc' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Nama Harus diisi'
+                ]
+            ],
+            'cover'     => [
+             'rules' => 'uploaded[cover]|mime_in[cover,image/jpg,image/jpeg,image/png]|max_size[cover,2048]',
+             'errors' => [
+                 'uploaded' => 'Kolom Cover harus berisi file.',
+                 'mime_in' => 'Tipe file pada Kolom Cover harus berupa JPG, JPEG, atau PNG',
+                 'max_size' => 'Ukuran file pada Kolom Cover melebihi batas maksimum'
+             ]
+         ],
+        ]);
+ 
+        if (!$validation) {
+            $errors = \Config\Services::validation()->getErrors();
+ 
+            return redirect()->back()->withInput()->with('errors', $errors);
+        }
+ 
+        $image = $this->request->getFile('cover');
+        $imageName = $image->getRandomName();
+        $image->move(ROOTPATH . 'public/assets/cover/', $imageName);
+        $data = [
+            'nama_loc' => $this->request->getPost('nama_loc'),
+            'cover' => $imageName,
+ 
+        ];
+        $this->lokasi->save($data);
+        session()->setFlashdata('success', 'Data berhasil disimpan.');
+        return redirect()->to('/lokasi');
+    } 
 }

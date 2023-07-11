@@ -15,7 +15,8 @@
   <div class="container-fluid">
   <img src="/assets/image/logo.png" width="40" height="40" style="margin-right: 10px;">
     <a class="navbar-brand" href="/">Event Bandar Lampung</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" 
+    aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -51,7 +52,6 @@
   </div>
 </nav>
 
-    
     <div class="container">
     <?= $this->renderSection('content') ?>
         <footer class="row row-cols-5 py-5 my-5 border-top">
