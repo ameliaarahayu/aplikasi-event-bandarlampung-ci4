@@ -18,10 +18,6 @@ class EventModel extends Model
             ->join("lokasi","lokasi.id_loc = event.id_loc");
             return $query->get()->getResultArray();
        }
-    
-       public function getEvent($data){
-        return $this->where("event", $data)->findAll;
-       }
        
        public function getDataByID($id_event)
        {

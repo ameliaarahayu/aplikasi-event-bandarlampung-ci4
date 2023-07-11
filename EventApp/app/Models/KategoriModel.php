@@ -15,12 +15,9 @@ class KategoriModel extends Model
     {
       return $this->findAll(); 
      }
-       public function getKategori($data){
-        return $this->where("Kategori", $data)->findAll;
-       }
        
-       public function getDataByID($id)
-       {
-           return $this->find($id);
-       }
+    public function getDataByID($id)
+    {
+       return $this->find($id);
+    }
 }

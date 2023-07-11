@@ -29,10 +29,10 @@
 				<div class="card-body">
                 <img src="/assets/image/logo3.png" width="80" style="margin-right: 10px;">
 					<h5 class="h5">Co-Head Production 1</h5>
-					<p> Name                : Amelia Rahayu </br>
-                        Npm                 : 21753073 </br>
-                        Age                 : 19 th  </br>
-                        Note                : Intinya Semua Tergantung Mindset</br>
+					<p> Name                : Thumberly Raja Siagian </br>
+                        Npm                 : 21753081 </br>
+                        Age                 : 20 th  </br>
+                        Note                : Syahadat dulu bang</br>
                     </p>
 				</div>
 			</div>
@@ -40,10 +40,10 @@
 				<div class="card-body">
                 <img src="/assets/image/logo3.png" width="80" style="margin-right: 10px;">
 					<h5 class="h5">Co-Head Production 2</h5>
-					<p> Name                : Amelia Rahayu </br>
-                        Npm                 : 21753073 </br>
+					<p> Name                : Daffa Surya Septa </br>
+                        Npm                 : 21753076 </br>
                         Age                 : 19 th  </br>
-                        Note                : Intinya Semua Tergantung Mindset</br>
+                        Note                : Masya Allah</br>
                     </p>
 				</div>
 			</div>

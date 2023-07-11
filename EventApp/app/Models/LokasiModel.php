@@ -14,13 +14,10 @@ class LokasiModel extends Model
     public function getAllData()
     {
       return $this->findAll(); 
-     }
-     public function getLokasi($data){
-      return $this->where("lokasi", $data)->findAll;
-     }
+    }
      
-     public function getDataByID($id_loc)
-     {
+    public function getDataByID($id_loc)
+    {
          return $this->find($id_loc);
-     }
+    }
 }

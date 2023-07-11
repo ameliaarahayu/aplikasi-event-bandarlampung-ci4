@@ -36,7 +36,6 @@
             </div>
         </div>
     </div>
-
     <script>
     function confirmDelete(id_loc) {
         swal({

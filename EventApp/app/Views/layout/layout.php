@@ -28,9 +28,6 @@
           <li class="nav-item">
             <a class="nav-link active text-dark" aria-current="page" href="/event/home">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="/about">About</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="" id="offcanvasNavbarDropdown" 
             role="button" data-bs-toggle="dropdown" aria-expanded="false">Event</a>
@@ -38,8 +35,15 @@
               <li><a class="dropdown-item text-dark" href="/event/index">All Event</a></li>
               <li><a class="dropdown-item text-dark" href="/kategori">Categorys</a></li>
               <li><a class="dropdown-item text-dark" href="/lokasi">Location</a></li>
-              <li>
             </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="" id="offcanvasNavbarDropdown" 
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item text-dark" href="<?= base_url('login/logout'); ?>">Logout</a></li>
+              <li><a class="dropdown-item text-dark" href="/about">About</a></li>
+            </ul>
+            </li>
           </li>
         </ul>
       </div>
