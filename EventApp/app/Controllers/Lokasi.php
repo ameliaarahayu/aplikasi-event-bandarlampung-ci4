@@ -42,7 +42,6 @@ class Lokasi extends BaseController
         return view("lokasi/add", $data);
     }
 
-
     public function edit()
     {
         $validation = $this->validate([
