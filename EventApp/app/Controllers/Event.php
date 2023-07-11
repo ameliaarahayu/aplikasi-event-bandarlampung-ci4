@@ -26,10 +26,10 @@ class Event extends BaseController
        return view("event/index", $data);
     }
 
-    public function all()
+    public function home()
     {
-        $data['semuaevent'] = $this->event->getAllDataJoin();
-        return view("event/semuaevent", $data);
+        $data['home'] = $this->event->getAllDataJoin();
+        return view("event/home", $data);
     }
 
     public function kategori()
@@ -44,9 +44,26 @@ class Event extends BaseController
         return view("event/lokasi", $data);
     }
 
+    public function update($id_event)
+    {
+        $data["kategori"] = $this->kategori->getAllData();
+        $data["lokasi"] = $this->lokasi->getAllData();
+        $data["errors"] = session('errors');
+        $data["event"] = $this->event->getDataByID($id_event);
+        return view("event/edit", $data);
+    }
+
+    public function destroy($id_event)
+    {
+        $this->event->delete($id_event);
+        session()->setFlashdata('success', 'Data berhasil dihapus.');
+        return redirect()->to('/event');
+    }
+
     public function add()
     {
         $data['kategori'] = $this->kategori->getAllData();
+        $data['lokasi'] = $this->lokasi->getAllData();
         $data['errors'] = session('errors');
         return view("event/add", $data);
     }
@@ -56,7 +73,7 @@ class Event extends BaseController
             'nama_event' => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom Nama Film Harus diisi'
+                    'required' => 'Kolom Nama Harus diisi'
                 ]
             ],
             'cover'     => [
@@ -70,25 +87,25 @@ class Event extends BaseController
             'id_catg'  => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom Genre Harus diisi'
+                    'required' => 'Kolom ini Harus diisi'
                 ]
             ],
-            'lokasi'  => [
+            'id_loc'  => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom Durasi Harus diisi'
+                    'required' => 'Kolom ini Harus diisi'
                 ]
             ],
             'tgl_event'  => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom Durasi Harus diisi'
+                    'required' => 'Kolom ini Harus diisi'
                 ]
             ],
             'price'  => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom Durasi Harus diisi'
+                    'required' => 'Kolom ini Harus diisi'
                 ]
             ],
             
@@ -106,7 +123,7 @@ class Event extends BaseController
         $data = [
             'nama_event' => $this->request->getPost('nama_event'),
             'id_catg' => $this->request->getPost('id_catg'),
-            'lokasi' => $this->request->getPost('lokasi'),
+            'id_loc' => $this->request->getPost('id_loc'),
             'tgl_event' => $this->request->getPost('tgl_event'),
             'price' => $this->request->getPost('price'),
             'cover' => $imageName,
@@ -116,36 +133,78 @@ class Event extends BaseController
         return redirect()->to('/event');
     }
  
-    public function addcatg()
-    {
-        $data['kategori'] = $this->kategori->getAllData();
-        $data['errors'] = session('errors');
-        return view("kategori/addcatg", $data);
-    }
-    public function stores()
+    public function edit()
     {
         $validation = $this->validate([
-            'nama_catg' => [
+            'nama_event' => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom Nama Film Harus diisi'
+                    'required' => 'Kolom Nama Harus diisi'
                 ]
             ],
+            'id_catg'  => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Harus diisi'
+                ]
+            ],
+            'id_loc'  => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Harus diisi'
+                ]
+            ],
+            'tgl_event'  => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Harus diisi'
+                ]
+            ],
+            'price'  => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Harus diisi'
+                ]
+            ],
+            'cover'     => [
+                'rules' => 'mime_in[cover,image/jpg,image/jpeg,image/png]|max_size[cover,2048]',
+                'errors' => [
+                    'mime_in' => 'Tipe file pada Kolom Cover harus berupa JPG, JPEG, atau PNG',
+                    'max_size' => 'Ukuran file pada Kolom Cover melebihi batas maksimum'
+                ]
+            ]
         ]);
- 
+
         if (!$validation) {
             $errors = \Config\Services::validation()->getErrors();
- 
+
             return redirect()->back()->withInput()->with('errors', $errors);
         }
- 
+        $event = $this->event->find($this->request->getPost('id_event'));
+
         $data = [
-            'nama_catg' => $this->request->getPost('nama_catg'),
- 
+            'id_event' => $this->request->getPost('id_event'),
+            'nama_event' => $this->request->getPost('nama_event'),
+            'id_catg' => $this->request->getPost('id_catg'),
+            'id_loc' => $this->request->getPost('id_loc'),
+            'tgl_event' => $this->request->getPost('tgl_event'),
+            'price' => $this->request->getPost('price'),
         ];
-        $this->kategori->save($data);
-        session()->setFlashdata('success', 'Data berhasil disimpan.');
-        return redirect()->to('/kategori');
+
+        $cover = $this->request->getFile('cover');
+        if($cover->isValid() && !$cover->hasMoved()){
+            $imageName = $cover->getRandomName();
+            $cover->move(ROOTPATH . 'public/assets/cover/', $imageName);
+            if($event['cover']){
+                unlink(ROOTPATH . 'public/assets/cover/' . $event['cover']);
+            }
+            $data['cover'] = $imageName;
+
+        }
+        $this->event->save($data);
+        session()->setFlashdata('success', 'Data berhasil diperbarui.');
+        return redirect()->to('/event');
     }
+    
  
 }

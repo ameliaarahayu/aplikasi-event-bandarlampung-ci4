@@ -1,0 +1,1029 @@
+INFO - 2023-07-10 02:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 02:20:14 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Login.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->action()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 02:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 02:47:43 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:48:23 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:49:12 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:49:51 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:50:26 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 02:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 02:50:31 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:52:24 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:54:58 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 02:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 02:55:04 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 02:55:56 --> Too few arguments to function App\Controllers\Lokasi::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Lokasi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:13:07 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 03:13:40 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 03:13:58 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 03:15:04 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:15:17 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:21:55 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:37:21 --> Undefined array key "$id_event"
+in APPPATH\Views\event\index.php on line 43.
+ 1 APPPATH\Views\event\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$id_event"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/index', [], true)
+ 5 APPPATH\Controllers\Event.php(26): view('event/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:44:27 --> Undefined property: App\Controllers\Lokasi::$kategori
+in APPPATH\Controllers\Lokasi.php on line 33.
+ 1 APPPATH\Controllers\Lokasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lokasi::$kategori', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Controllers\\Lokasi.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->destroy('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 03:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:46:32 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 03:47:56 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Login.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->action()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 04:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 04:27:01 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Login.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->action()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 04:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 04:37:32 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Login.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->action()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 04:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 04:40:50 --> Invalid file: "login/action.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/action.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login/action', [], true)
+ 3 APPPATH\Controllers\User.php(15): view('login/action')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 04:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 04:48:19 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 04:51:08 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 04:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 04:52:23 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 04:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 04:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:02:12 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:02:49 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:02:50 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:02:51 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:04:08 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:04:09 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:04:10 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:04:14 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:06:11 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:08:07 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:08:08 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:08:09 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:08:09 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:08:10 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:08:26 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:14:25 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:14:30 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:17:15 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:23:43 --> Too few arguments to function App\Controllers\Event::ngubah(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->ngubah()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:24:08 --> Undefined variable $id
+in APPPATH\Controllers\Event.php on line 53.
+ 1 APPPATH\Controllers\Event.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Controllers\\Event.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:24:37 --> Too few arguments to function App\Models\EventModel::getDataByID(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\app\Controllers\Event.php on line 53 and exactly 1 expected
+in APPPATH\Models\EventModel.php on line 26.
+ 1 APPPATH\Controllers\Event.php(53): App\Models\EventModel->getDataByID()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:25:09 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:25:44 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:27:23 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:28:01 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:28:21 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 05:29:51 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 05:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 05:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 05:40:45 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:02:27 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:16:03 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:32:46 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:33:34 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:33:35 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:38:50 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:41:29 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:41:51 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:43:12 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:43:13 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:43:14 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:43:36 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:44:33 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:46:57 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:47:01 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:27 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:28 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:28 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:43 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:43 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:44 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 06:47:44 --> Too few arguments to function App\Controllers\Kategori::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Kategori.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 06:47:57 --> Too few arguments to function App\Controllers\Event::update(), 0 passed in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Event.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 06:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 06:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 07:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 07:08:26 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\User.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 07:11:42 --> Undefined variable $model
+in APPPATH\Controllers\User.php on line 21.
+ 1 APPPATH\Controllers\User.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Controllers\\User.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 08:42:51 --> Call to undefined function encryptUrl()
+in APPPATH\Views\event\index.php on line 42.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/index', [], true)
+ 4 APPPATH\Controllers\Event.php(26): view('event/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 08:43:15 --> Undefined array key "id"
+in APPPATH\Views\event\index.php on line 42.
+ 1 APPPATH\Views\event\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/index', [], true)
+ 5 APPPATH\Controllers\Event.php(26): view('event/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:43:32 --> Undefined variable $film
+in APPPATH\Views\event\edit.php on line 115.
+ 1 APPPATH\Views\event\edit.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/edit', [], true)
+ 5 APPPATH\Controllers\Event.php(54): view('event/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' 1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:48:03 --> Call to undefined function App\Controllers\decryptUrl()
+in APPPATH\Controllers\Event.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' 1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+CRITICAL - 2023-07-10 08:48:17 --> Call to undefined function App\Controllers\decryptUrl()
+in APPPATH\Controllers\Event.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' 1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:51:22 --> Undefined array key "id"
+in APPPATH\Views\lokasi\edit.php on line 22.
+ 1 APPPATH\Views\lokasi\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(27): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:52:04 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(27): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:52:21 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(27): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:55:19 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(27): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:56:01 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(27): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 08:56:19 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(27): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 08:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 08:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:01:29 --> Undefined variable $descryptedId
+in APPPATH\Controllers\Event.php on line 53.
+ 1 APPPATH\Controllers\Event.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descryptedId', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Controllers\\Event.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' 1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:03:20 --> Undefined array key "id_event"
+in APPPATH\Views\event\edit.php on line 22.
+ 1 APPPATH\Views\event\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_event"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/edit', [], true)
+ 5 APPPATH\Controllers\Event.php(54): view('event/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' 1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:07:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\event\edit.php on line 22.
+ 1 APPPATH\Views\event\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/edit', [], true)
+ 5 APPPATH\Controllers\Event.php(53): view('event/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' v4SekEdb723Pi', 'r66GtpplZNb1FNQklENUVEV2I3VDJEM0hmamc9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:07:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\event\edit.php on line 22.
+ 1 APPPATH\Views\event\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/edit', [], true)
+ 5 APPPATH\Controllers\Event.php(53): view('event/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' sb8E', '7ZhRUq07P6I2maPXGNaRU1XM2Jvc1dXSkx3akNNemFrMEE9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:08:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\event\edit.php on line 22.
+ 1 APPPATH\Views\event\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\event\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('event/edit', [], true)
+ 5 APPPATH\Controllers\Event.php(53): view('event/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Event->update(' LfroUL6x036ZTfEihZR', 'wjJwQ21qbmxZT3M4ZGp4MWQwUERhMnc9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:11:05 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(26): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:13:32 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(26): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:15:39 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(26): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:20:04 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(26): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 09:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 09:32:19 --> Undefined array key "id_loc"
+in APPPATH\Views\lokasi\edit.php on line 21.
+ 1 APPPATH\Views\lokasi\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_loc"', 'D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\app\\Views\\lokasi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/edit', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(26): view('lokasi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->update(' 6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-07-10 09:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

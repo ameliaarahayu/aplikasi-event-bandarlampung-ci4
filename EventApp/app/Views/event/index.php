@@ -36,11 +36,11 @@
                     <td><img style="width: 50px;" src="/assets/cover/<?= $event["cover"]?>" class="card-img-top"></td>
                     <td><?= $event['nama_catg']?></td>
                     <td><?= $event['tgl_event']?></td>
-                    <td><?= $event['id_loc']?></td>
+                    <td><?= $event['nama_loc']?></td>
                     <td><?= $event['price']?></td>
                     <td>
-                    <a href="/event/update/" class="btn btn-success">Update</a>
-                    <a class="btn btn-danger" onclick="return confirmDelete()">Delete</a>
+                    <a href="/event/update/ <?=($event["id_event"]); ?>" class="btn btn-success">Update</a>
+                    <a class="btn btn-danger" onclick="confirmDelete('<?= $event ['id_event']?>')">Delete</a>
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -48,12 +48,12 @@
             </div>
         </div>
     </div>
-    <!-- tambahkan dari sini  -->
+
     <script>
-    function confirmDelete() {
+    function confirmDelete(id_event) {
         swal({
                 title: "Apakah Anda yakin?",
-                text: "setelah dihapus! data anda akan benar-benar hilang!",
+                text: "Setelah dihapus! data anda akan benar-benar hilang!",
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,
@@ -61,7 +61,7 @@
             .then((willDelete) => {
                 if (willDelete) {
 
-                    window.location.href = "/film/destroy/";
+                    window.location.href = "/event/destroy/" +id_event;
 
                 } else {
                     swal("Data tidak jadi dihapus!");
@@ -69,5 +69,5 @@
             });
     }
     </script>
-    <!-- sampai sini -->
+    
     <?= $this->endSection() ?>

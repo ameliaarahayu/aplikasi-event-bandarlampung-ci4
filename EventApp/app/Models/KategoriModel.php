@@ -11,9 +11,16 @@ class KategoriModel extends Model
     protected $useAutoIncrement  = true;
     protected $allowedFields     = ['nama_catg'];
 
-    
     public function getAllData()
     {
       return $this->findAll(); 
      }
+       public function getKategori($data){
+        return $this->where("Kategori", $data)->findAll;
+       }
+       
+       public function getDataByID($id)
+       {
+           return $this->find($id);
+       }
 }

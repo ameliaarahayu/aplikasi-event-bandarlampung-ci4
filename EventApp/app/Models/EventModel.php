@@ -13,8 +13,9 @@ class EventModel extends Model
 
     public function getAllDataJoin(){
         $query = $this->db->table("event")
-            ->select("event.*, kategori.nama_catg")
-            ->join("kategori", "kategori.id_catg = event.id_catg");
+            ->select("event.*, kategori.nama_catg, lokasi.nama_loc")
+            ->join("kategori", "kategori.id_catg = event.id_catg")
+            ->join("lokasi","lokasi.id_loc = event.id_loc");
             return $query->get()->getResultArray();
        }
     
@@ -22,8 +23,8 @@ class EventModel extends Model
         return $this->where("event", $data)->findAll;
        }
        
-       public function getDataByID($id)
+       public function getDataByID($id_event)
        {
-           return $this->find($id);
+           return $this->find($id_event);
        }
 }

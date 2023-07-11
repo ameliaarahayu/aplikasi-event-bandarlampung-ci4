@@ -9,11 +9,18 @@ class LokasiModel extends Model
     protected $table             ='lokasi';
     protected $primaryKey        ='id_loc';
     protected $useAutoIncrement  = true;
-    protected $allowedFields     = ['nama_loc'];
-
+    protected $allowedFields     = ['nama_loc', 'cover'];
     
     public function getAllData()
     {
       return $this->findAll(); 
+     }
+     public function getLokasi($data){
+      return $this->where("lokasi", $data)->findAll;
+     }
+     
+     public function getDataByID($id_loc)
+     {
+         return $this->find($id_loc);
      }
 }
