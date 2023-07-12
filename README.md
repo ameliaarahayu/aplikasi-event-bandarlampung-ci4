@@ -4,8 +4,8 @@
 | ------------- | ------------------------- | ------------- |
 | 1.            | Amelia Rahayu             | 21753073      |
 | 2.            | Anggi Alisya F.S.         | 21753075      |
-| 3.            | Daffa Surya Septa         | 21753050      |
-| 4.            | Fillyana Tri P.H          | 21753056      |
+| 3.            | Daffa Surya Septa         | 21753076      |
+| 4.            | Fillyana Tri P.H          | 21753050      |
 | 5.            | Eti Nurkholifah           | 21753077      |
 | 6.            | Thumberly Raja S.         | 21753081      |
 | 7.            | Yunita                    | 21753082      |
