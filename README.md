@@ -3,7 +3,7 @@
 | No            | Kelompok                  | NPM           | 
 | ------------- | ------------------------- | ------------- |
 | 1.            | Amelia Rahayu             | 21753073      |
-| 2.            | Anggi Alisya F.S.         | 21753077      |
+| 2.            | Anggi Alisya F.S.         | 21753075      |
 | 3.            | Daffa Surya Septa         | 21753050      |
 | 4.            | Fillyana Tri P.H          | 21753056      |
 | 5.            | Eti Nurkholifah           | 21753077      |
