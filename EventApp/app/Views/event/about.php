@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-                <img src="/assets/image/ara.jpg" width="100px" style="margin-right: 10px;">
+                <img src="/assets/image/logo3.png" width="100px" style="margin-right: 10px;">
 					<h5 class="h5">Head Production</h5>
 					<p> Name                : Amelia Rahayu </br>
                         Npm                 : 21753073 </br>

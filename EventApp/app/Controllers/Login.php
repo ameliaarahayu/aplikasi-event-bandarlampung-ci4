@@ -14,9 +14,9 @@ class Login extends BaseController
       $muser = new UserModel();
       $email = $this->request->getPost('email');
       $password = $this->request->getPost('password');
-
+    
       $cek = $muser->get_data($email, $password);
-      if (($cek['user_email'] == $email) && ($cek['user_pass'] == $password))
+      if ($cek !== null && ($cek['user_email'] == $email) && ($cek['user_pass'] == $password))
       {
          session()->set('user_email', $cek['user_email']);
          session()->set('user_nama', $cek['user_nama']);
@@ -24,7 +24,7 @@ class Login extends BaseController
          return redirect()->to(base_url('event/home'));
       } else {
          session()->setFlashdata('gagal', 'Username / Password salah');
-         return redirect()->to(base_url('login'));
+         return redirect()->back()->withInput()->with('error', 'Invalid username or password');
       }
    }
 

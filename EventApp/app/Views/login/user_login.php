@@ -44,12 +44,12 @@
       <img class="mb-4" src="/assets/image/logo.png" alt="" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Please Sign in!</h1>
       <div class="form-floating">
-      <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" 
+      <input type="email" required name="email" class="form-control" id="email" aria-describedby="emailHelp" 
       placeholder="Password">
         <label for="floatingInput">Email</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+        <input type="password" required class="form-control" name="password" id="floatingPassword" placeholder="Password">
         <label for="floatingPassword">Password</label>
         <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
       </div>
@@ -59,12 +59,6 @@
         </label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-      <div class="card-footer text-center pt-0 px-lg-2 px-1">
-        <p class="mb-4 text-sm mx-auto">
-          Don't have an account?
-          <a href="<?= base_url('login/register'); ?>" class="text-primary text-gradient font-weight-bold">Sign up</a>
-        </p>
-      </div>
       <p class="mt-5 mb-3 text-muted">&copy; MI 4C 2021</p>
     </form>
   </main>
