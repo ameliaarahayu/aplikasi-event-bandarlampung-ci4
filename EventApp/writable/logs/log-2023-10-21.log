@@ -1,0 +1,59 @@
+INFO - 2023-10-21 03:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-21 03:18:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_event', 3306, '', 0)
+#1 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\app\Models\UserModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\app\Controllers\Login.php(18): App\Models\UserModel->get_data('admin1@gmail.co...', 'admin265')
+#6 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php(934): App\Controllers\Login->login_action()
+#7 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplik...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\app\Models\UserModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\app\Controllers\Login.php(18): App\Models\UserModel->get_data('admin1@gmail.co...', 'admin265')
+#5 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php(934): App\Controllers\Login->login_action()
+#6 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\GitHub\aplikasi-event-bandarlampung-ci4\EventApp\system\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplik...')
+#10 {main}
+CRITICAL - 2023-10-21 03:18:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = :user_email:
+AND `user_pass` = :user_pass:', [...], false)
+ 3 APPPATH\Models\UserModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(18): App\Models\UserModel->get_data('admin1@gmail.com', 'admin265')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login_action()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\GitHub\\aplikasi-event-bandarlampung-ci4\\EventApp\\public\\index.php')
+INFO - 2023-10-21 03:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 03:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 04:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 04:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-21 04:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
