@@ -1,14 +1,31 @@
-# MI 4C 2023 - Project Uap
- 
-| No            | Kelompok                  | NPM           | 
-| ------------- | ------------------------- | ------------- |
-| 1.            | Amelia Rahayu             | 21753073      |
-| 2.            | Anggi Alisya F.S.         | 21753075      |
-| 3.            | Daffa Surya Septa         | 21753076      |
-| 4.            | Fillyana Tri P.H          | 21753050      |
-| 5.            | Eti Nurkholifah           | 21753077      |
-| 6.            | Thumberly Raja S.         | 21753081      |
-| 7.            | Yunita                    | 21753082      |
-| Kelas         | Manajemen Informatika 4C  |               |               
-| Instansi      | Politeknik Negeri Lampung |               |
-| Mata Kuliah   | Pemrograman Web Framework |               |
+# CodeIgniter 4 CRUD MySQL and Bootstrap 4
+
+
+## Installation & updates
+
+`composer create-project codeigniter4/appstarter` then `composer update` whenever
+there is a new release of the framework.
+
+When updating, check the release notes to see if there are any changes you might need to apply
+to your `app` folder. The affected files can be copied or merged from
+`vendor/codeigniter4/framework/app`.
+
+## Setup
+
+Copy `env` to `.env` and tailor for your app, specifically the baseURL
+and any database settings.
+
+
+## Server Requirements
+
+PHP version 7.2 or higher is required, with the following extensions installed: 
+
+- [intl](http://php.net/manual/en/intl.requirements.php)
+- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+Additionally, make sure that the following extensions are enabled in your PHP:
+
+- json (enabled by default - don't turn it off)
+- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
+- xml (enabled by default - don't turn it off)
